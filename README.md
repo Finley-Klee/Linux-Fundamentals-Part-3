@@ -5,8 +5,8 @@ Insert a short description of the project
 
 <h2>Utilities Used</h2>
 
-- <b>Number 1</b> 
-- <b>Number 2</b>
+- <b>Linux Terminal</b> 
+- <b>Nano</b>
 
 <h2>Environments Used </h2>
 
@@ -14,7 +14,7 @@ Insert a short description of the project
 
 <h2>Project walk-through:</h2>
 
-- <b>Section Name</b>
+- <b>Terminal Text Editors</b>
 <p>Description</p>
 <br>
 <p align="center">Step One: <br/>
@@ -34,7 +34,95 @@ Insert a short description of the project
 </p>
 <br />
 <br />
-- <b>Section Name</b>
+- <b>General/Useful Utilities</b>
+<p>Description</p>
+<br>
+<p align="center">Step One: <br/>
+  <img src="" height="80%" width="80%" alt="image one"/>
+  <br />
+  <br />
+  Step Two: <br />
+  <img src="" height="80%" width="80%" alt="image two"/>
+  <br />
+  <br />
+  Step Three: <br />
+  <img src="" height="80%" width="80%" alt="image three"/>
+   <br />
+  <br />
+  Step Four: <br />
+  <img src="" height="80%" width="80%" alt="image four"/>
+   <br />
+  <br />
+  Step Five: <br />
+  <img src="" height="80%" width="80%" alt="image five"/>
+</p>
+- <b>Processes 101</b>
+<p>Description</p>
+<br>
+<p align="center">Step One: <br/>
+  <img src="" height="80%" width="80%" alt="image one"/>
+  <br />
+  <br />
+  Step Two: <br />
+  <img src="" height="80%" width="80%" alt="image two"/>
+  <br />
+  <br />
+  Step Three: <br />
+  <img src="" height="80%" width="80%" alt="image three"/>
+   <br />
+  <br />
+  Step Four: <br />
+  <img src="" height="80%" width="80%" alt="image four"/>
+   <br />
+  <br />
+  Step Five: <br />
+  <img src="" height="80%" width="80%" alt="image five"/>
+</p>
+- <b>Maintaining Your System: Automation</b>
+<p>Description</p>
+<br>
+<p align="center">Step One: <br/>
+  <img src="" height="80%" width="80%" alt="image one"/>
+  <br />
+  <br />
+  Step Two: <br />
+  <img src="" height="80%" width="80%" alt="image two"/>
+  <br />
+  <br />
+  Step Three: <br />
+  <img src="" height="80%" width="80%" alt="image three"/>
+   <br />
+  <br />
+  Step Four: <br />
+  <img src="" height="80%" width="80%" alt="image four"/>
+   <br />
+  <br />
+  Step Five: <br />
+  <img src="" height="80%" width="80%" alt="image five"/>
+</p>
+- <b>Maintaining Your System: Package Management</b>
+<p>Description</p>
+<br>
+<p align="center">Step One: <br/>
+  <img src="" height="80%" width="80%" alt="image one"/>
+  <br />
+  <br />
+  Step Two: <br />
+  <img src="" height="80%" width="80%" alt="image two"/>
+  <br />
+  <br />
+  Step Three: <br />
+  <img src="" height="80%" width="80%" alt="image three"/>
+   <br />
+  <br />
+  Step Four: <br />
+  <img src="" height="80%" width="80%" alt="image four"/>
+   <br />
+  <br />
+  Step Five: <br />
+  <img src="" height="80%" width="80%" alt="image five"/>
+</p>
+- <b>Maintaining Your System: Logs</b>
 <p>Description</p>
 <br>
 <p align="center">Step One: <br/>
