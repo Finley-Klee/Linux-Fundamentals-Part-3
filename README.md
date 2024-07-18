@@ -1,7 +1,7 @@
 # Linux-Fundamentals-Part-3
 
 <h2>Description</h2>
-Insert a short description of the project
+This is the last part of 3 in the Linux fundamentals series on TryHackMe. Building on the skills in the last two rooms, this room introduced useful utilites and applications as well as automation, package management, and service/application logging.
 
 <h2>Utilities Used</h2>
 
@@ -34,6 +34,7 @@ Insert a short description of the project
 </p>
 <br />
 <br />
+
 - <b>General/Useful Utilities</b>
 <p>Description</p>
 <br>
@@ -56,6 +57,7 @@ Insert a short description of the project
   Step Five: <br />
   <img src="" height="80%" width="80%" alt="image five"/>
 </p>
+
 - <b>Processes 101</b>
 <p>Description</p>
 <br>
@@ -78,6 +80,7 @@ Insert a short description of the project
   Step Five: <br />
   <img src="" height="80%" width="80%" alt="image five"/>
 </p>
+
 - <b>Maintaining Your System: Automation</b>
 <p>Description</p>
 <br>
@@ -100,6 +103,7 @@ Insert a short description of the project
   Step Five: <br />
   <img src="" height="80%" width="80%" alt="image five"/>
 </p>
+
 - <b>Maintaining Your System: Package Management</b>
 <p>Description</p>
 <br>
@@ -122,6 +126,7 @@ Insert a short description of the project
   Step Five: <br />
   <img src="" height="80%" width="80%" alt="image five"/>
 </p>
+
 - <b>Maintaining Your System: Logs</b>
 <p>Description</p>
 <br>
