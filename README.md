@@ -51,7 +51,7 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
 
 <p>Lastly, I read about how to change the state of a process between the foreground and background using the & operator or Ctrl + Z to send things to the background, and then using the fg command to bring them back to the foreground.</p>
 <br>
-<p align="center">Since this section was quite reading focused, the tasks mainly were answering questions. The first answer  <br/>
+<p align="center">Since this section was quite reading focused, the tasks mainly were answering questions. The first answer comes from the overview of processes. We know that the process ID increments in the order the process starts, so the next process after 300 would have a process ID (PID) of 301.<br/>
   <img src="" height="80%" width="80%" alt="image one"/>
   <br />
   <br />
