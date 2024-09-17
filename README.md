@@ -28,26 +28,18 @@ This is the last part of 3 in the Linux fundamentals series on TryHackMe. Buildi
 <br />
 
 - <b>General/Useful Utilities</b>
-<p>Description</p>
+<p>In the next section I learned about the wget command, which is used to download a file over http, and the scp command, which provides a way to securely transfer files over the SSH protocol. I also learned that Ubuntu linux machines can use the "HTTPServer" module in Python3 to quickly and easily host files that others can download.</p>
 <br>
-<p align="center">Step One: <br/>
-  <img src="" height="80%" width="80%" alt="image one"/>
+<p align="center">To practice using these commands, I opened two terminal windows. In the top terminal window I have used SSH to connect to the linux3 machine, and the bottom terminal window is the attack box. On the linux3 machine I used the HTTP Server module from the home dirctory to give access to the file there, and then in the attack box terminal I used wget to download the flag.<br/>
+  <img src="https://github.com/user-attachments/assets/f9f76bfb-e36c-48aa-810b-07c7e435c2db" height="80%" width="80%" alt="two terminal windows in linux with dark blue backgrounds and lime green and white text. The top window shows the command python3 -m http.server followed by the confirmation that it was successful and lastly a log of the attack box getting the flag.txt file. The bottom window shows the use of the wget command with the ip address and name of the file followed by confirmation of the file downloading."/>
   <br />
   <br />
-  Step Two: <br />
-  <img src="" height="80%" width="80%" alt="image two"/>
+Then, I wanted to confirm that the file was in the directory, so first I used the ls command because I didn't notice the "." before the word flag in the file name indicating that it's a hidden file, but when I didn't see the file in the list I realized my mistake and appended the -a flag to show the hidden files and directories and confirmed that the flag file was there. <br />
+  <img src="https://github.com/user-attachments/assets/65d7f534-3654-46d9-be08-7335fc8cf904" height="80%" width="80%" alt="a linux terminal window with dark blue background and lime green, light blue and white text. The first command shows ls with a limited number of responses and the .flag.txt file is not seen. After that the ls -a command is shows with a red rectangle around it and the .flag.txt file is visible and also highlighted by a red rectangle."/>
   <br />
   <br />
-  Step Three: <br />
-  <img src="" height="80%" width="80%" alt="image three"/>
-   <br />
-  <br />
-  Step Four: <br />
-  <img src="" height="80%" width="80%" alt="image four"/>
-   <br />
-  <br />
-  Step Five: <br />
-  <img src="" height="80%" width="80%" alt="image five"/>
+ After that, I simply used the cat command to print the flag, which is THM{WGET_WEBSERVER} <br />
+  <img src="https://github.com/user-attachments/assets/9ae4e91d-d8b8-4052-aa46-c3c1640090be" height="80%" width="80%" alt="A linux terminal window with dark blue background and lime green and white text. The top line shows the command cat .flag.txt and the next line shows the flag highlighted in white with contrasting dark font. The flag reads THM curly brace WGET underscore WEBSERVER curl brace"/>
 </p>
 
 - <b>Processes 101</b>
@@ -141,3 +133,4 @@ This is the last part of 3 in the Linux fundamentals series on TryHackMe. Buildi
   Step Five: <br />
   <img src="" height="80%" width="80%" alt="image five"/>
 </p>
+<img width="697" alt="Screenshot 2024-09-17 at 12 24 54 PM" src="">
