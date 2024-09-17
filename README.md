@@ -43,9 +43,15 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
 </p>
 
 - <b>Processes 101</b>
-<p>Description</p>
+<p>In this section I learned what processes are, how to view a list of the processes running as our user session using the ps command, and that in order to see the processes running from other users or that don't run from a session you need to use ps aux.</p>
+
+<p>Then I read that you can manage start and stop those processes using different commands. The kill command (used with the associated process ID) will terminate a process, the SIGTERM signal kills the process, but allows it to do some cleanup tasks beforehand, the SIGKILL signal kills the process and doesn't do any cleanup after the fact, and if you want to just stop or suspend a process you can use the SIGSTOP signal.</p>
+
+<p>Next, I read about starting processes and services upon booting a system using the systemctl command. The systemctl command accepts an option like start, stop, enable, or disable and a service. The example given was launching an apache2 webserver  on boot using the command systemctl start apache2. </p>
+
+<p>Lastly, I read about how to change the state of a process between the foreground and background using the & operator or Ctrl + Z to send things to the background, and then using the fg command to bring them back to the foreground.</p>
 <br>
-<p align="center">Step One: <br/>
+<p align="center">Since this section was quite reading focused, the tasks mainly were answering questions. The first answer  <br/>
   <img src="" height="80%" width="80%" alt="image one"/>
   <br />
   <br />
