@@ -52,23 +52,19 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
 <p>Lastly, I read about how to change the state of a process between the foreground and background using the & operator or Ctrl + Z to send things to the background, and then using the fg command to bring them back to the foreground.</p>
 <br>
 <p align="center">Since this section was quite reading focused, the tasks mainly were answering questions. The first answer comes from the overview of processes. We know that the process ID increments in the order the process starts, so the next process after 300 would have a process ID (PID) of 301.<br/>
-  <img src="" height="80%" width="80%" alt="image one"/>
+<p align="center">Then, if we wanted to cleanly kill a process, we would want to use the SIGTERM signal, because, according to the reading, this kills the process but allows it to do some cleanup tasks beforehand.<br/>
+  <img src="https://github.com/user-attachments/assets/54f814a4-a8d8-43a1-acd0-13db2d77cdea" height="80%" width="80%" alt="white background with questions in black text, gray rounded corner rectangles with the answers, and a lime green button to the right with a check mark and correct answer. The top question reads If we were to launch a process where the previous ID was 300, what would the ID of this new process be? and the answer reads 301. The second question reads If we wanted to cleanly kill a process, what signal would we send it? and the answer reads SIGTERM."/>
   <br />
   <br />
-  Step Two: <br />
-  <img src="" height="80%" width="80%" alt="image two"/>
+  The next questions asks me to locate a process that is running the deployed machine that provides me with a flag, so I ran the "ps aux" command to see a list of all the processes running on the machine. Then I scrolled through the list looking for the TryHackMe flag format, and I found a process running from root with a PID of 481 that had the flag THM{PROCESSES}.<br />
+  <img src="https://github.com/user-attachments/assets/bf9b2a8c-0db7-4b34-a537-9abfff5de762" height="80%" width="80%" alt="dark blue background with white text. The top line shows the command ps aux followed by many lines of all the processes running."/>
+  <img src="https://github.com/user-attachments/assets/d2d85e51-f765-495d-9862-cdb7b8b2d64f" height="80%" width="80%" alt="dark blue background with white text and the colors inverted for highlight. The list of running processes is shown with a single line highlighted. To the far right in the command column the text reads THM curly brace open processes curly brace close."/>
   <br />
   <br />
-  Step Three: <br />
-  <img src="" height="80%" width="80%" alt="image three"/>
-   <br />
-  <br />
-  Step Four: <br />
-  <img src="" height="80%" width="80%" alt="image four"/>
-   <br />
-  <br />
-  Step Five: <br />
-  <img src="" height="80%" width="80%" alt="image five"/>
+  The last three questions in this section all check for understanding of the reading. The first asks "What command would we use to stop the service 'myservice'?" For this we would start with the "systemctl" command, which allows us to interact with the systemd process/daemon. Then we would pass it the "stop" option followed by the name of the service, which in this case is "myservice". <br />
+  Then, if we wanted to restart the same service on the boot-up of the system, we would use the same basic command "systemctl" but we would use the "enable" option followed by the service name. <br />
+  Lastly, the command to bring a previously backgrounded process to the foreground is "fg". <br />
+  <img src="https://github.com/user-attachments/assets/c449426e-45fd-4caf-a7e1-6bc2f27a782d" height="80%" width="80%" alt="white background with questions in black text, gray rounded corner rectangles with the answers, and a lime green button to the right with a check mark and correct answer."/>
 </p>
 
 - <b>Maintaining Your System: Automation</b>
@@ -139,4 +135,4 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
   Step Five: <br />
   <img src="" height="80%" width="80%" alt="image five"/>
 </p>
-<img width="697" alt="Screenshot 2024-09-17 at 12 24 54 PM" src="">
+
