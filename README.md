@@ -68,26 +68,14 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
 </p>
 
 - <b>Maintaining Your System: Automation</b>
-<p>Description</p>
+<p>This section introduces us to crontabs, which allow us to schedule tasks like opening programs on boot or backing up files.</p>
 <br>
-<p align="center">Step One: <br/>
-  <img src="" height="80%" width="80%" alt="image one"/>
+<p align="center">I learned that in order to successfully schedule a task in crontabs, you must put in information for 6 values, but you can use the asterisk as a wildcard. So, for example, if you wanted to back up "cmnatic"'s "Documents" every 12 hours, you would write that like this: 0 */12 * * * cp -R /home/cmnatic/Documents /var/backups/ <br/>
+  <img src="https://github.com/user-attachments/assets/fbcaf8de-d79f-40a5-9b89-92bd0c8eeaa5" height="80%" width="80%" alt="A white table explaining the different values in order for crontabs, including minutes, hours, day of the month, month of the year, day of the week, and the command to execute."/>
   <br />
   <br />
-  Step Two: <br />
-  <img src="" height="80%" width="80%" alt="image two"/>
-  <br />
-  <br />
-  Step Three: <br />
-  <img src="" height="80%" width="80%" alt="image three"/>
-   <br />
-  <br />
-  Step Four: <br />
-  <img src="" height="80%" width="80%" alt="image four"/>
-   <br />
-  <br />
-  Step Five: <br />
-  <img src="" height="80%" width="80%" alt="image five"/>
+ To answer the question in this task, I used the command crontab -e to edit the crontab file in nano. I scrolled to the bottom of the file and found the crontab running on the deployed instance, which runs on reboot.<br />
+  <img src="https://github.com/user-attachments/assets/1ca2a1a6-55f7-48a8-8765-26666fe43a8f" height="80%" width="80%" alt="a nano text editor window with crontab information. The last line is highlighted and reads @reboot /var/opt/processes.sh"/>
 </p>
 
 - <b>Maintaining Your System: Package Management</b>
