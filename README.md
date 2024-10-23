@@ -79,7 +79,7 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
 </p>
 
 - <b>Maintaining Your System: Package Management</b>
-<p>Description</p>
+<p>The package management section does not have any activities, so I will summarize what I read.</p>
 <br>
 <p align="center">Step One: <br/>
   <img src="" height="80%" width="80%" alt="image one"/>
