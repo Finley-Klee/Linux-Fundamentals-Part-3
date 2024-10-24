@@ -92,25 +92,12 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
 </p>
 
 - <b>Maintaining Your System: Logs</b>
-<p>Description</p>
+<p>The last section of this room is about logs. The room's author specifically highlights logs from three services running on the Ubuntu machine: an Apache2 web server, the fail2ban service which monitors brute force attempts, and the UFW service which is used as a firewall.</p>
 <br>
-<p align="center">Step One: <br/>
-  <img src="" height="80%" width="80%" alt="image one"/>
+<p align="center">First, I navigated to the var/log directory on the machine and listed the contents to display all of the different logs.<br/>
+  <img src="https://github.com/user-attachments/assets/59a75d0f-b7bb-4f79-b775-af29b0e520d0" height="80%" width="80%" alt="linux terminal output showing the many logs in the var/log directory including the highlighted apache2 logs."/>
   <br />
   <br />
-  Step Two: <br />
-  <img src="" height="80%" width="80%" alt="image two"/>
-  <br />
-  <br />
-  Step Three: <br />
-  <img src="" height="80%" width="80%" alt="image three"/>
-   <br />
-  <br />
-  Step Four: <br />
-  <img src="" height="80%" width="80%" alt="image four"/>
-   <br />
-  <br />
-  Step Five: <br />
-  <img src="" height="80%" width="80%" alt="image five"/>
+ The questions for the task ask about the ip address of the user who visited the site in the Apache2 logs, and what file they accessed. To uncover this information I changed directories to the Apache2 directory and then concatenated the access.log.1 file. I discovered that the ip address 10.9.232.111 accessed the file catsanddogs.jpg using a GET request.<br />
+  <img src="https://github.com/user-attachments/assets/17618281-2ab6-4dc4-acf5-a9cfd8e14b77" height="80%" width="80%" alt="a single log entry from the Apache2 access.log.1 file with the ip address, date, and the get request followed by system details."/>
 </p>
-
