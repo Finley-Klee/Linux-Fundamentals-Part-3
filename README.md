@@ -81,24 +81,14 @@ Then, I wanted to confirm that the file was in the directory, so first I used th
 - <b>Maintaining Your System: Package Management</b>
 <p>The package management section does not have any activities, so I will summarize what I read.</p>
 <br>
-<p align="center">Step One: <br/>
-  <img src="" height="80%" width="80%" alt="image one"/>
+<p align="center">"apt" repositories hold software created by software developers. Operating systems maintain their own standard repositories, but users can also add community repositories to their system to extend the capabilities of the operating system. This can be done with the add-apt-repository command.<br/>
   <br />
   <br />
-  Step Two: <br />
-  <img src="" height="80%" width="80%" alt="image two"/>
+  The apt command is part of a package management software, also called apt. Using the apt software, we can manage packages and sources, and add and remove software. One major benefit of using the apt software for package management is that whenever we update our system, the repository that contains the pieces of software that we added also gets checked for updates.<br />
   <br />
   <br />
-  Step Three: <br />
-  <img src="" height="80%" width="80%" alt="image three"/>
-   <br />
-  <br />
-  Step Four: <br />
-  <img src="" height="80%" width="80%" alt="image four"/>
-   <br />
-  <br />
-  Step Five: <br />
-  <img src="" height="80%" width="80%" alt="image five"/>
+  I learned the method of manually adding a repository using Sublime text as an example: <br />
+  <img src="https://github.com/user-attachments/assets/70969a9e-9c11-4a0a-9f66-b958fdf624ee" height="80%" width="80%" alt="step by step instructions for manually adding sublime text to a linux ubuntu system. Step 1 download the GPG key and use apt-key to trust it. Part 1 of step 2 create a file names sublime-text.list in /etc/apt/sources.list.d Part 2 of step 2 use a text editor to add and save the sublime text repository into the newly created file. Part 3 of step 2 use the apt update command to recognize the new entry. Last step run apt install sublime-text. To remove a repository you use the add-apt-repository --remove ppa:PPA_Name/ppa command and then apt remove [software name] so for example apt remove sublime-text."/>
 </p>
 
 - <b>Maintaining Your System: Logs</b>
